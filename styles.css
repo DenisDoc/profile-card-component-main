@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter&family=Kumbh+Sans&family=Lexend+Deca&family=Outfit:wght@200;400;600&family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@200;400;600&family=Red+Hat+Display:wght@500&display=swap');
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+    position: absolute;
+    margin: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    position: relative; 
+    overflow: hidden;
+}
+.bg-top,
+.bg-bottom{
+    position: absolute;
+    overflow: hidden;
+    width: 80rem;
+}
+.bg-top{
+    margin: -60rem 0rem 0rem -80rem;
+}
+.bg-bottom{
+    margin: 0rem -70rem -80rem 0rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    width:85%;
+    max-height: 23rem;
+    max-width:350px;
+    overflow: hidden;
+}
+.cover,
+.cover img{
+    width: 100%;
+    height: initial;
+}
+.profile-picture{
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+    padding: 0px;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    right: auto;
+    left: auto;
+    top:80px;
+    border:5px solid white;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    padding-top:68px;
+    gap: 10px;
+}
+.location{
+    margin-top: 9px;
+}
+.details{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border-top: 1px solid rgba(150, 150, 150, 0.2);
+    margin:25px auto;
+    padding-top:25px;
+}
+p{
+    color:  hsl(0, 0%,45%);
+    font-weight: 400;
+    margin: 10px;
+    font-size:10px;
+ 
+}
+.folowers,
+.likes,
+.photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5px;
+}
+.flp{
+    letter-spacing: 2px;
+}
+h2,
+.stats{
+    font-size: 18px;
+    font-weight: 700;
+    color:rgba(51, 51, 63, 1);
+}
+h2,
+p.age{
+    margin: 0px;
+}
+.name p{
+    font-size: 18px;
+}
+.location p{
+    font-size: 13px;
+    margin: 0px;
+}
+.attribution{
+    position:absolute;
+    margin-top: 57rem;
+}
